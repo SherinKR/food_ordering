@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include food_odering *.css
+recursive-include food_odering *.csv
+recursive-include food_odering *.html
+recursive-include food_odering *.ico
+recursive-include food_odering *.js
+recursive-include food_odering *.json
+recursive-include food_odering *.md
+recursive-include food_odering *.png
+recursive-include food_odering *.py
+recursive-include food_odering *.svg
+recursive-include food_odering *.txt
+recursive-exclude food_odering *.pyc
